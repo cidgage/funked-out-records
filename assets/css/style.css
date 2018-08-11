@@ -1,0 +1,43 @@
+body {
+    background: #000000;
+}
+
+h1 {
+    color: #5eff00;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #000000;
+    padding: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #888888;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.websiteURL {
+    font-family: Jungle, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+}
+
+#main-image {
+    height: 600px;
+    width: 800px;
+    margin-top: 50px;
+}
