@@ -30,8 +30,8 @@ h1 {
 }
 
 .websiteURL {
-    font-family: Jungle, Arial, sans-serif;
-    font-size: 50px;
+    font-family: "I Tell You All My Secrets", Arial, sans-serif;
+    font-size: 72px;
     text-align: center;
     padding: 100px;
 }
@@ -40,4 +40,8 @@ h1 {
     height: 600px;
     width: 800px;
     margin-top: 50px;
+}
+
+#main-image:hover {
+    border-image: 2px solid #FFFFFF;
 }
