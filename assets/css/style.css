@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 14px;
     background: #000000;
     color: #5eff00;
 }
@@ -17,13 +16,14 @@ h1 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: #5eff00;
+    color: #666666;
 }
 
 a:link {
@@ -35,20 +35,18 @@ a:hover {
     border-image: 2px solid #FFFFFF;
 }
 
-a:visited {
-    color: #5eff00;
-}
-
 nav {
     position: relative;
     text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color: #6600aa;
 }
 
 .container {
     display: inline;
     width: 100%;
     max-width: 960px;
-    margin: 0px 0px 100px;
     clear: both;
     text-align: center;
     min-height: 100%;
@@ -57,10 +55,17 @@ nav {
 .card {
     float: left;
     width: 33.33%;
-    margin: 20px 0px;
-    padding: 5px;
+    height: 250px;
+    margin: 10px 0px;
     text-align: center;
-    /* border: 1px solid #eeeeee; */
+}
+
+header {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    clear: both;
 }
 
 footer {
@@ -70,11 +75,12 @@ footer {
     bottom: 0;
     width: 100%;
     background: #000000;
-    padding: 20px;
+    padding: 5px 0px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 14px;
     text-align: center;
     color: #888888;
+    vertical-align: baseline;
 }
 
 .center {
@@ -93,13 +99,6 @@ footer {
     height: 600px;
     width: 800px;
     margin-top: 50px;
-}
-
-#websiteURL {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
 }
 
 img:hover {
