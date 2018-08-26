@@ -1,13 +1,29 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
     background: #000000;
+    color: #5eff00;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1 {
-    color: #5eff00;
+    font-family: "I Tell You All My Secrets", Arial, sans-serif;
+    font-size: 72px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
+    color: #5eff00;
 }
 
 a:link {
@@ -16,13 +32,39 @@ a:link {
 
 a:hover {
     background-color: #888888;
+    border-image: 2px solid #FFFFFF;
 }
 
 a:visited {
     color: #5eff00;
 }
 
-.footer {
+nav {
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    display: inline;
+    width: 100%;
+    max-width: 960px;
+    margin: 0px 0px 100px;
+    clear: both;
+    text-align: center;
+    min-height: 100%;
+}
+
+.card {
+    float: left;
+    width: 33.33%;
+    margin: 20px 0px;
+    padding: 5px;
+    text-align: center;
+    /* border: 1px solid #eeeeee; */
+}
+
+footer {
+    display: block;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -41,26 +83,23 @@ a:visited {
     margin-right: auto;
 }
 
-.navbar {
-    position: fixed;
-    text-align: center;
-    color: #5eff00;
-    font-family: 'Arial Narroe Bold', sans-serif, 'Times New Roman';
-    font-size: 20px;
-    margin-left: 600px;
-}
-
-.websiteURL {
-    font-family: "I Tell You All My Secrets", Arial, sans-serif;
-    font-size: 72px;
-    text-align: center;
-    padding: 100px 50px 30px;
+.album-thumb {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
 }
 
 #main-image {
     height: 600px;
     width: 800px;
     margin-top: 50px;
+}
+
+#websiteURL {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
 }
 
 img:hover {
