@@ -39,8 +39,9 @@ nav {
     position: relative;
     text-align: center;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #6600aa;
+    padding: 10px 0px;
 }
 
 .container {
@@ -93,6 +94,18 @@ footer {
     height: 200px;
     width: 200px;
     padding: 5px;
+}
+
+.album-full {
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+    float: left;
+    margin: 0px 100px;
+}
+
+.tracklist {
+    font-size: 24px;
 }
 
 #main-image {
